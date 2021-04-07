@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var contentVM = ContentViewModel()
+    @EnvironmentObject var contentVM: ContentViewModel
+    // @ObservedObject var contentVM = ContentViewModel()
     @State private var showForm = false
     var body: some View {
         VStack{
@@ -18,7 +19,15 @@ struct ContentView: View {
             .padding(.top,60)
             .frame(height: 400)
             
-            
+            Button(action: {
+                    contentVM.name = ""
+                    self.showForm = true}, label: {
+                Text("Add Name")
+            })
+        }
+        .sheet(isPresented: $showForm) {
+          //  AddNameView(contentVM: contentVM, showForm: $showForm)
+           AddNameView(showForm: $showForm)
         }
     }
 }

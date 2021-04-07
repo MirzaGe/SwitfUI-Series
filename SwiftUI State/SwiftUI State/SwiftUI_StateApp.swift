@@ -12,6 +12,7 @@ struct SwiftUI_StateApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(ContentViewModel())
         }
     }
 }

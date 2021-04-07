@@ -12,6 +12,7 @@
 		4443AAB2261DD7EB00CA1631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4443AAB1261DD7EB00CA1631 /* Assets.xcassets */; };
 		4443AAB5261DD7EB00CA1631 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4443AAB4261DD7EB00CA1631 /* Preview Assets.xcassets */; };
 		4443AABE261DD84D00CA1631 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4443AABD261DD84C00CA1631 /* ContentViewModel.swift */; };
+		4443AAC1261DE98500CA1631 /* AddNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4443AAC0261DE98500CA1631 /* AddNameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4443AAB4261DD7EB00CA1631 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4443AAB6261DD7EB00CA1631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4443AABD261DD84C00CA1631 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		4443AAC0261DE98500CA1631 /* AddNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				4443AAB6261DD7EB00CA1631 /* Info.plist */,
 				4443AAB3261DD7EB00CA1631 /* Preview Content */,
 				4443AABD261DD84C00CA1631 /* ContentViewModel.swift */,
+				4443AAC0261DE98500CA1631 /* AddNameView.swift */,
 			);
 			path = "SwiftUI State";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4443AAB0261DD7E700CA1631 /* ContentView.swift in Sources */,
+				4443AAC1261DE98500CA1631 /* AddNameView.swift in Sources */,
 				4443AAAE261DD7E700CA1631 /* SwiftUI_StateApp.swift in Sources */,
 				4443AABE261DD84D00CA1631 /* ContentViewModel.swift in Sources */,
 			);
