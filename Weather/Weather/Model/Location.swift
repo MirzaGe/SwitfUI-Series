@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 struct Location: Codable, Identifiable {
   var id: String? = UUID().uuidString
   let key: String
@@ -49,4 +47,3 @@ extension Location {
                     administrativeArea: Location.State(localizedName: "Colorado"))
   }
 }
-
